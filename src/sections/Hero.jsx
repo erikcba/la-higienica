@@ -18,7 +18,7 @@ const Hero = () => {
                              <WhatsappIcon/>
                               Contactar
                         </a>
-                        <a className='z-20 border-2 border-stone-50 text-stone-50 text-xl font-semibold rounded-lg px-3 py-1 hover:bg-stone-50 hover:text-zinc-800 ' href="#servicios">Servicios</a>
+                        <a className='z-20 border-2 border-stone-50 text-stone-50 text-xl font-semibold rounded-lg px-3 py-1 hover:bg-stone-50 hover:text-zinc-800 transition-all ease-in-out ' href="#servicios">Servicios</a>
                     </div>
                 </div>
             </div>

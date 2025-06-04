@@ -4,6 +4,7 @@ import Servicios from "./sections/Servicios"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
+import Somos from "./sections/Somos"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Hero />
       <Servicios />
+      <Somos/>
     </>
   )
 }
