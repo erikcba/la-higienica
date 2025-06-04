@@ -17,7 +17,7 @@ const Somos = () => {
                                     Nuestra historia
                                 </h1>
                                 <p className='text-lg'>
-                                    Somos una empresa mendocina con más de 60 años al servicio de nuestros clientes resolviendo problemas como desagote de pozo séptico, cámara séptica, tratamientos quimicos para devolverle la permeabilidad al pozo. Destape de cañeria tanto cloacal como pluvial.
+                                    Somos una empresa mendocina con más de 60 años al servicio de nuestros clientes resolviendo problemas como desagote de pozo séptico, cámara séptica y tratamientos quimicos para devolverle la permeabilidad al pozo. Destape de cañeria tanto cloacal como pluvial.
                                 </p>
 
                             </div>

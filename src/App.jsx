@@ -5,6 +5,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 import Somos from "./sections/Somos"
+import Contacto from "./sections/Contacto"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Hero />
       <Servicios />
       <Somos/>
+      <Contacto/>
     </>
   )
 }
