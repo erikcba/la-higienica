@@ -6,6 +6,7 @@ import "aos/dist/aos.css"
 import { useEffect } from "react"
 import Somos from "./sections/Somos"
 import Contacto from "./sections/Contacto"
+import Footer from "./sections/Footer"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Servicios />
       <Somos/>
       <Contacto/>
+      <Footer/>
     </>
   )
 }
