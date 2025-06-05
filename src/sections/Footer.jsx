@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className='bg-blue-950 md:py-20'>
             <div className='container mx-auto'>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 gap-20'>
                     <div className='flex flex-col items-center justify-center'>
                         <a href="#" className="flex flex-col group items-center justify-center">
                             <h2 className="text-lg text-stone-50 group-hover:text-white  font-semibold">Atmosféricos</h2>

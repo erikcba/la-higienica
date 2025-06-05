@@ -8,7 +8,7 @@ export const Servicios = () => {
                 <h1 className='md:text-4xl font-semibold text-center'>
                     Nuestros servicios
                 </h1>
-                <div className="grid grid-cols-3 gap-10">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
                     <ServiciosCard numero={"1."} titulo={"Desagote de pozo séptico"} descripcion={"Desagote y mantenimiento seguro de pozos sépticos para prevenir derrames y malos olores."} />
                     <ServiciosCard numero={"2."} titulo={"Desagote de cámara séptica y biodigestores"} descripcion={"Limpieza profesional de cámaras sépticas y biodigestores, respetando normas ambientales."} />
                     <ServiciosCard numero={"3."} titulo={"Tratamientos químicos para pozos sépticos"} descripcion={"Aplicación de productos específicos que mejoran el funcionamiento y alargan la vida útil del pozo."}/>

@@ -14,7 +14,7 @@ const Somos = () => {
                         Quienes somos
                     </h1>
                     <div className='flex flex-row gap-10'>
-                        <div className='w-1/2 flex flex-col gap-8 items-center justify-center'>
+                        <div className='w-full sm:w-1/2 flex flex-col gap-8 items-center justify-center'>
                             <div className='flex flex-col items-start justify-center gap-4'>
                                 <h1 className='text-2xl font-semibold '>
                                     Nuestra historia
@@ -39,15 +39,15 @@ const Somos = () => {
                                 <StatsCard numero={"1000+"} texto={"Clientes satisfechos"} textColor={"text-fuchsia-700"} color={"bg-fuchsia-100"} />
                             </div>
                         </div>
-                        <div className='w-1/2 rounded-md overflow-hidden flex justify-center items-center'>
+                        <div className='hidden sm:w-1/2 rounded-md overflow-hidden flex justify-center items-center'>
                             <img className='rounded-md' src={img1} alt="" />
                         </div>
                     </div>
                     <div className='flex flex-row gap-10'>
-                        <div className='w-1/2 rounded-md overflow-hidden flex justify-center items-center'>
+                        <div className='hidden sm:w-1/2 rounded-md overflow-hidden sm:flex justify-center items-center'>
                             <img className='rounded-md h-11/12' src={img2} alt="" />
                         </div>
-                        <div className='w-1/2 flex justify-start items-center'>
+                        <div className='w-full sm:w-1/2 flex justify-start items-center'>
                             <div className='flex flex-col items-start justify-center gap-4'>
                                 <h1 className='text-2xl font-semibold'>
                                     A quienes nos dirigimos

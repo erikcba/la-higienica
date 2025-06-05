@@ -10,7 +10,7 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit} className='flex flex-col gap-4 w-full bg-zinc-100 rounded-md p-6'>
       <h1 className='text-2xl text-gray-700 font-semibold mb-2'>
-        Contactanos
+        Envianos tu consulta
       </h1>
       <div className='flex flex-row items-center justify-center w-full gap-4'>
         <div className='flex flex-col gap-2 w-1/2'>

@@ -12,8 +12,8 @@ const Contacto = () => {
                 <h1 className='md:text-4xl font-semibold text-center'>
                     Contacto
                 </h1>
-                <div className='flex flex-row items-center justify-center gap-12'>
-                    <div className='w-1/2'>
+                <div className='flex flex-col sm:flex-row items-center justify-center gap-12'>
+                    <div className='w-full sm:w-1/2'>
                         <Mapa />
                     </div>
                     <div className='w-1/2 flex flex-col items-start justify-around gap-8'>

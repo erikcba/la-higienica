@@ -3,7 +3,7 @@ import React from 'react'
 const SubHero = () => {
     return (
         <section className='bg-zinc-100'>
-            <div data-aos="fade-up" className='container mx-auto md:py-20 py-6 grid grid-cols-3 '>
+            <div data-aos="fade-up" className='container mx-auto md:py-20 py-6 grid grid-cols-1 sm:grid-cols-3 '>
                 <div className="flex flex-col items-center justify-center gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} fill={"#3aa6f9"} viewBox="0 0 24 24">{/* Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free */}<path d="M19 3h-2c0-.55-.45-1-1-1H8c-.55 0-1 .45-1 1H5c-1.1 0-2 .9-2 2v15c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m0 17H5V5h2v2h10V5h2z"></path><path d="M11 14.09 8.71 11.8 7.3 13.21l3 3c.2.2.45.29.71.29s.51-.1.71-.29l5-5-1.41-1.41-4.29 4.29Z"></path></svg>
                     <h2 className="text-2xl font-semibold">
