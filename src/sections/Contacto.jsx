@@ -8,15 +8,15 @@ const Contacto = () => {
 
     return (
         <section id='contacto' className='bg-zinc-100'>
-            <div className='container mx-auto md:py-20 py-6 flex flex-col gap-20'>
-                <h1 className='md:text-4xl font-semibold text-center'>
+            <div className='container mx-auto md:py-20 py-12 flex flex-col gap-10 sm:gap-20 px-4 sm:px-0'>
+                <h1 className='text-2xl sm:text-4xl font-semibold text-center'>
                     Contacto
                 </h1>
                 <div className='flex flex-col sm:flex-row items-center justify-center gap-12'>
                     <div className='w-full sm:w-1/2'>
                         <Mapa />
                     </div>
-                    <div className='w-1/2 flex flex-col items-start justify-around gap-8'>
+                    <div className='w-full sm:w-1/2 flex flex-col items-start justify-around gap-8'>
                         <div className='flex flex-row items-center justify-start gap-4'>
                             <div className='self-start'>
                                 <PhoneIcon />

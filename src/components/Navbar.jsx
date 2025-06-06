@@ -20,7 +20,7 @@ const Navbar = () => {
                         Contacto
                     </a>
                 </ul>
-                <ContactoWsp />
+                <ContactoWsp ocultar={"sm:block hidden"} />
             </div>
         </nav>
     )
