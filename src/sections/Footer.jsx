@@ -11,7 +11,7 @@ const Footer = () => {
                             <h2 className="text-lg text-stone-50 group-hover:text-white  font-semibold">Atmosféricos</h2>
                             <h2 className="text-4xl text-stone-50 group-hover:text-white  font-semibold">La Higienica</h2>
                         </a>
-                        <p className='text-gray-100 w-1/2 text-center mt-2'>
+                        <p className='text-gray-100 w-full sm:w-1/2 text-center mt-2'>
                             Soluciones profesionales para el tratamiento de aguas negras
                         </p>
                     </div>

@@ -12,8 +12,8 @@ const ContactForm = () => {
       <h1 className='text-2xl text-gray-700 font-semibold mb-2'>
         Envianos tu consulta
       </h1>
-      <div className='flex flex-row items-center justify-center w-full gap-4'>
-        <div className='flex flex-col gap-2 w-1/2'>
+      <div className='flex flex-col sm:flex-row items-center justify-center w-full gap-4'>
+        <div className='flex flex-col gap-2 w-full sm:w-1/2'>
           <label className='text-gray-700 font-medium' htmlFor="name">Nombre</label>
           <input
             id="name"
@@ -28,7 +28,7 @@ const ContactForm = () => {
             errors={state.errors}
           />
         </div>
-        <div className='flex flex-col gap-2 w-1/2'>
+        <div className='flex flex-col gap-2 w-full sm:w-1/2'>
           <label className='text-gray-700 font-medium' htmlFor="phone">Teléfono</label>
           <input
             id="phone"
