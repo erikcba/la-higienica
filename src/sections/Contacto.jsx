@@ -3,6 +3,7 @@ import Mapa from '../components/Mapa'
 import PhoneIcon from '../components/icons/PhoneIcon'
 import LocationIcon from '../components/icons/LocationIcon'
 import ClockIcon from '../components/icons/ClockIcon'
+import Mail from '../components/icons/Mail'
 
 const Contacto = () => {
 
@@ -55,6 +56,19 @@ const Contacto = () => {
                                         Direccion
                                     </h2>
                                     <p className='text-zinc-800'>Benjamin Argumedo 3461, La Primavera, Guaymallén, Mendoza. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='flex flex-row items-center justify-start gap-4'>
+                                <div className='self-start'>
+                                    <Mail/>
+                                </div>
+                                <div>
+                                    <h2 className='flex flex-row gap-2 items-center justify-start font-semibold text-lg'>
+                                        Email
+                                    </h2>
+                                    <p className='text-zinc-800'>lahigienicavidal@gmail.com</p>
                                 </div>
                             </div>
                         </div>

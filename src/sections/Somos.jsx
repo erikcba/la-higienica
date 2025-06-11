@@ -35,8 +35,8 @@ const Somos = () => {
                             <div className='grid grid-cols-2 gap-6 w-full'>
                                 <StatsCard numero={"60+"} texto={"Años de experiencia"} textColor={"text-green-700"} color={"bg-green-100"} />
                                 <StatsCard numero={"120km"} texto={"Area de cobertura "} textColor={"text-orange-700"} color={"bg-orange-100"} />
-                                <StatsCard numero={"100%"} texto={"Trabajos garantizados"} textColor={"text-blue-700"} color={"bg-blue-100"} />
                                 <StatsCard numero={"1000+"} texto={"Clientes satisfechos"} textColor={"text-fuchsia-700"} color={"bg-fuchsia-100"} />
+                                <StatsCard numero={"Calidad y confianza"} texto={"En cada trabajo"} textColor={"text-blue-700"} color={"bg-blue-100"} />
                             </div>
                         </div>
                         <div className='hidden sm:w-1/2 rounded-md overflow-hidden sm:flex justify-center items-center'>
